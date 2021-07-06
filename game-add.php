@@ -64,8 +64,8 @@ function db_queryAll($sql, $conn) {
                                 $sql = "SELECT genre FROM genres ORDER BY genre";
                                 $genres = db_queryAll($sql, $conn);
                                 
-                                foreach ($genres as $genre) {
-                                    echo "<option value=" . $genre["genre"] . ">" . ucfirst($genre["genre"]) . "</option>";
+                                foreach ($genres as $eachgenre) {
+                                    echo "<option value=" . $eachgenre["genre"] . ">" . ucfirst($eachgenre["genre"]) . "</option>";
                                 }
                             ?>
                         </select>
