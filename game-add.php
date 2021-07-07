@@ -32,7 +32,7 @@ $title_tag = "Add Game";
 
 <h1 class="text-center mt-5">Add Game <i class="bi bi-joystick"></i></h1>
 
-<div class="row mt-5">
+<div class="row mt-5 ms-1">
     <form class="row justify-content-center mb-5" action="game.php" method="POST" novalidate>
         <div class="col-12 col-md-6">
 
